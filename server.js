@@ -65,11 +65,11 @@ app.get('/', (req, res) => {
 
 
 // Route
-app.post('/submit', (req, res) => {
-  const { name, message } = req.body;
-  console.log(`Received message from ${name}: ${message}`);
-  res.json({ status: 'success', message: `Thank you, ${name}! Your message has been received.` });
-});
+// app.post('/submit', (req, res) => {
+//   const { name, message } = req.body;
+//   console.log(`Received message from ${name}: ${message}`);
+//   res.json({ status: 'success', message: `Thank you, ${name}! Your message has been received.` });
+// });
 
 // Start Server
 app.listen(PORT, () => {
