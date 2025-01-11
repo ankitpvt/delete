@@ -1,13 +1,21 @@
 {
   "name": "backend-for-vercel",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitpvt/delete.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitpvt/delete/issues"
+  },
+  "homepage": "https://github.com/ankitpvt/delete#readme",
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
